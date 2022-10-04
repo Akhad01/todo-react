@@ -1,0 +1,57 @@
+.todoItem {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    align-items: center;
+    user-select: none;
+}
+
+.checkbox[type="checkbox"] {
+    display: none;
+}
+
+.checkbox[type="checkbox"]:checked + .text::before {
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/check.png);
+    background-size: 100%;
+    background-color: #E7847E
+}
+
+.icon {
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.text {
+    text-align: left;
+    width: 600px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.text::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #F6CECC;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: 0.5s;
+    border-radius: 50%;
+} 
+
+.completedTodo {
+    text-decoration: line-through;
+    color: #b4b8c9;
+}
+
+.deleteIcon {
+    font-size: 23px;
+    cursor: pointer;
+    color: #4E505C;
+}
