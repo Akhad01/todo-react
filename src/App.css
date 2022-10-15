@@ -1,19 +1,13 @@
 .App {
-    margin: 0 auto;
-    padding-top: 100px;
-    width: 1200px;
+    margin: 50px auto;
+    max-width: 700px;
+    padding: 15px;
+    background-color: #FFFCF9;
+    border-radius: 13px;
 }
 
 .title {
     text-align: center;
     color: #E57975;
     margin-bottom: 20px;
-}
-
-.todoFormContainer {
-    margin: 50px auto;
-    width: 700px;
-    padding: 25px;
-    background-color: #FFFCF9;
-    border-radius: 13px;
 }

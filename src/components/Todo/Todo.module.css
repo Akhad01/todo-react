@@ -16,7 +16,7 @@
     height: 25px;
     background-image: url(../../img/check.png);
     background-size: 100%;
-    background-color: #E7847E
+    background-color: #EA837C;
 }
 
 .icon {
@@ -38,12 +38,18 @@
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-color: #F6CECC;
+    background-color: #fff;
     vertical-align: middle;
     margin-right: 10px;
     transition: 0.5s;
     border-radius: 50%;
+    border: 2px solid #E7847E;
+    cursor: pointer;
 } 
+
+.text::before:hover {
+    border: 1px solid #fff;
+}
 
 .completedTodo {
     text-decoration: line-through;
@@ -55,3 +61,5 @@
     cursor: pointer;
     color: #4E505C;
 }
+
+/* #F6CECC; */

@@ -18,11 +18,9 @@ function App() {
   }
   return (
     <div className="App">
-      <div className="todoFormContainer">
-        <h1 className="title">Todo List</h1>
-        <TodoForm addArray={addArray} />
-        <TodoList lists={lists} deleteTodo={deleteTodoHandler} />
-      </div>
+      <h1 className="title">Todo List</h1>
+      <TodoForm addArray={addArray} />
+      <TodoList lists={lists} deleteTodo={deleteTodoHandler} />
     </div>
   );
 }
