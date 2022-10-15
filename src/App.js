@@ -6,9 +6,12 @@ import TodoForm from "./components/TodoForm";
 function App() {
   const [lists, setList] = useState([]);
   function addArray(text) {
-    console.log(text);
-    setList([...lists, text]);
+    if (!!text) {
+      setList([...lists, text]);
+    }
   }
+
+  console.log(lists);
 
   function deleteTodoHandler(index) {
     setList(lists.filter((_, idx) => idx !== index));

@@ -14,7 +14,7 @@
 .checkbox[type="checkbox"]:checked + .text::before {
     width: 25px;
     height: 25px;
-    background-image: url(../img/check.png);
+    background-image: url(../../img/check.png);
     background-size: 100%;
     background-color: #E7847E
 }

@@ -37,7 +37,11 @@ const Todo = ({ element, deleteTodo, index }) => {
         style={
           checked
             ? styleHr
-            : { border: "none", backgroundColor: "#E8E6E8", height: "1.5px" }
+            : {
+                border: "none",
+                backgroundColor: "#E8E6E8",
+                height: "1.5px",
+              }
         }
       />
     </>
